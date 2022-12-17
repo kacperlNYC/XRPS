@@ -250,11 +250,11 @@ function getWinner()
 {
     if (deckPlayer[0] + deckPlayer[1] + deckPlayer[2] === 0)
     {
-        return "Player";
+        return "Computer";
     }
     else if (deckComputer[0] + deckComputer[1] + deckComputer[2] === 0)
     {
-        return "Computer";
+        return "You";
     }
     else 
     {
