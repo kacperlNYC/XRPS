@@ -25,10 +25,16 @@
 
         <div id="mid">
             <p id="message">Click on any button to start!</p>
+
+            <div id="animation">
+                <img id="playerItem">
+                <img id="computerItem">
+            </div>
+
             <div class="buttons">
                 <button id="rock" onclick="play('Rock');"><img src="img/rock.png"></button>
                 <button id="paper" onclick="play('Paper');"><img src ="img/paper.png"></button>
-                <button id="scissor" onclick="play('Scissor');"><img src="img/scissor.png"></button>
+                <button id="scissor" onclick="play('Scissors');"><img src="img/scissor.png"></button>
             </div>
         </div>
 
@@ -47,5 +53,11 @@
         <button onclick="init();">Reset</button>
     </div>
     
+    <div id="log">
+        <table id="logTable">
+            <tr><th>Game Log</th></tr>
+        </table>
+    </div>
+
 </body>
 </html>
